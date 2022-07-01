@@ -546,7 +546,7 @@ background-size: cover;
 
 
 .content-text h2 {
-  width: 68vw;
+  width: 76vw;
   font-size: 4.0vw;
 }
 
@@ -554,7 +554,7 @@ background-size: cover;
 .content-text p {
   font-size: 3.2vw;
   display: flex;
-  width: 69vw;
+  width: 76vw;
   height: 27vw;
   /* padding-right: 90vw; */
   align-items: center; }
@@ -566,7 +566,7 @@ background-size: cover;
 }
 
 .argument-2 p { 
-  width: 73vw;
+  width: 76vw;
 }
 
 
