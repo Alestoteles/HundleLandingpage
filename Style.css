@@ -329,7 +329,7 @@ h2 {
 }
 
 .contact span {
-  list-style: none;
+  text-decoration: none;
   display: flex;
   font-size: 0.7vw;
 }
