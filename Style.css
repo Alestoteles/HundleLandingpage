@@ -431,9 +431,10 @@ form {
    }
 
    header button {
-      width: 16.2vw;
-      height: 6vw;
-      font-size: 2.1vw;
+    width: 18.2vw;
+    height: 8vw;
+    font-size: 2.3vw;
+
   }
 
   .style-title {
@@ -444,15 +445,15 @@ form {
 
 
 .first-p {
-   width: 67vw;
-   font-size: 3vw;
+    width: 80vw;
+    font-size: 3.6vw;
 }
 
 
 .btn-started {
-   font-size: 1.8vw;
-   width: 28vw;
-   height: 6vw;
+  font-size: 2.1vw;
+  width: 30vw;
+  height: 7vw;
 }
 
 
@@ -469,30 +470,35 @@ form {
 }
 
 .dice img {
-   width: 5.8vw;
+  padding-left: 5vw;
+  width: 5.8vw;
 }
 
 
 .number {
+  display: flex;
+  justify-content: center;
    font-size: 9.0vw;
 }
 
 .text-dice {
-   text-align: center;
-   font-size: 2.5vw;
-   width: 26vw;
+  text-align: center;
+  font-size: 3.5vw;
+  width: 36vw;
+
 }
 
 
 
 .arg-general {
-   text-align: center;
-   display: flex;
-   align-items: center;
-   /* gap: 45px; */
-   height: 30vw;
-   padding: 49vw;
-   flex-direction: column-reverse;
+    text-align: center;
+    display: flex;
+    gap: 43px;
+    height: 30vw;
+    padding: 81vw 5vw;
+    flex-direction: column-reverse;
+    align-items: center;
+}
 
 }
 .content-img img {
@@ -516,21 +522,9 @@ background-size: cover;
 
 
 
-.arg-general {
-   text-align: center;
-   display: flex;
-   align-items: center;
-   gap: 43px;
-   height: 30vw;
-   padding: 55vw 5vw;
-   flex-direction: column-reverse;
-}
-
-
-
 .argument-1 { 
    
-   padding-bottom: 13vw;
+  padding-bottom: 2vw;
    text-align: center;
 
 }
@@ -538,8 +532,9 @@ background-size: cover;
 
 
 .content-text {
-   width: 50vw;
-   height: 11vw;
+  width: 76vw;
+  height: 40vw;
+
 }
 
 
@@ -551,18 +546,18 @@ background-size: cover;
 
 
 .content-text h2 {
-   width: 45vw;
-   font-size: 4.0vw;
+  width: 68vw;
+  font-size: 4.0vw;
 }
 
 
 .content-text p {
-   font-size: 2.0vw;
-   display: flex;
-   align-items: center;
-   width: 46vw;
-   height: 12vw;
-}
+  font-size: 3.2vw;
+  display: flex;
+  width: 69vw;
+  height: 27vw;
+  /* padding-right: 90vw; */
+  align-items: center; }
 
 
 .argument-2 { 
@@ -570,11 +565,15 @@ background-size: cover;
    flex-direction: column;
 }
 
+.argument-2 p { 
+  width: 73vw;
+}
+
 
 
 .argument-3{
    padding-bottom: 15vw;
-   padding-top: 30vw;
+   padding-top: 85vw;
 }
 
 
@@ -599,7 +598,7 @@ background-size: cover;
 
 .bg-general{ 
    width: 100%;
-   height: 28vw;
+   height: 29vw;
    background-size: cover;
  }
  
@@ -625,28 +624,28 @@ background-size: cover;
  
  .curved-bg-footer { 
    
-   height: 14vw;
+   height: 13vw;
    background-image: url(/images/bg-footer-top-mobile.svg);
  }
  
 
  .footer-general {
-   height: 104vw;
-   /* padding-top: 3vw; */
-   display: flex;
-   background-color: hsl(192, 100%, 9%);
-   flex-direction: column-reverse;
-   justify-content: center;
-   align-items: center;
-   gap: 14vw;
+  height: 116vw;
+  padding-top: 0vw;
+  display: flex;
+  background-color: hsl(192, 100%, 9%);
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
 }
 
 
 .contact {
-   gap: 1.5vw;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  gap: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact img {
@@ -654,14 +653,14 @@ background-size: cover;
 }
 
 .contact p {
-   width: 52vw;
-   font-size: 2.4vw;
+  width: 77vw;
+  font-size: 3.6vw;
 }
 
 .contact span {
-display: flex;
-font-size: 1.8vw;
-width: 52vw;
+  display: flex;
+  font-size: 2.4vw;
+  width: 73vw;
 }
 
 .contact img {
@@ -674,8 +673,8 @@ span img {
 }
 
 .social-networks {
-   width: 52vw;
-   margin-top: 7.5vw;
+  width: 72vw;
+  margin-top: 2.5vw;
 }
 
 .social-networks img {
@@ -684,12 +683,12 @@ span img {
 }
 
 .logo-box { 
-   width: 52vw;
+  width: 73vw;;
 
 }
 
 .logo-footer { 
-   width: 25vw;
+  width: 35vw;
 }
 
 
